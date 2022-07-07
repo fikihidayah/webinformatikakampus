@@ -1,0 +1,26 @@
+.pagination {
+  justify-content: right;
+}
+
+.dataTables_filter {
+  text-align: right;
+}
+
+.dataTables_length .form-control {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.dataTables_wrapper .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media (max-width:720px) {
+
+  .dataTables_filter,
+  .dataTables_length,
+  .dataTables_length .form-control {
+    text-align: center;
+  }
+}

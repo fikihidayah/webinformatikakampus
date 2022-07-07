@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="assets/framework/bootstrap5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="assets//fonts/fontawesome6/css/all.css">
+
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="assets/app/css/mycss.css">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/app/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/app/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/app/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/app/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./assets/app/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Jurusan Teknik Informatika - Universitas Ibnu Sina</title>
+</head>
+
+<body data-scroll-header class="loading-loader">
+
+  <div class="loader">
+    <div class="img-loader-wrapper">
+      <img src="./assets/app/img/uis-ti.png" alt="">
+    </div>
+  </div>
+
+  <!-- header -->
+  <div class="bg-warning d-flex justify-content-end px-lg-5">
+    <div class="top-head-container">
+      <a href="" class="link-top-head">Universitas</a>
+      <div class="link-top-head-separator"></div>
+      <a href="" class="link-top-head">Fakultas</a>
+      <div class="link-top-head-separator"></div>
+      <a href="" class="link-top-head">UIS Gateway</a>
+      <div class="link-top-head-separator"></div>
+      <a href="" class="link-top-head">Admisi</a>
+      <div class="link-top-head-separator"></div>
+      <a href="" class="link-top-head">
+        <img src="assets/fonts/flags/indonesia.png" width="24" alt="">
+      </a>
+      <div class="link-top-head-separator"></div>
+      <a href="" class="link-top-head">
+        <img src="assets/fonts/flags/united-kingdom.png" width="24" alt="">
+      </a>
+      <div class="link-top-head-separator"></div>
+      <!-- image by : https://www.flaticon.com -->
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container-fluid py-3 py-sm-0 container-xxl">
+      <a class="navbar-brand" href="/">
+        <img src="assets/app/img/uis-ti.png" alt="" class="img-uis">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars text-warning"></i>
+      </button>
+      <div class="offcanvas offcanvas-end" id="navbarNav">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body justify-content-md-between">
+          <ul class="navbar-nav">
+            <li class="nav-item have-nest">
+              <a class="nav-link active" href="#">Profil <i class="fa-solid fa-angle-right float-end"></i></a>
+              <ul class="nav-nest shadow-sm">
+                <li class="nest-item">
+                  <a href="./profil.html" class="nest-item-link">Profil</a>
+                </li>
+                <li class="nest-item">
+                  <a href="./visi-misi.html" class="nest-item-link">Visi dan Misi</a>
+                </li>
+                <li class="nest-item">
+                  <a href="./sambutan-ketua-jurusan.html" class="nest-item-link">Sambutan Ketua jurusan</a>
+                </li>
+                <li class="nest-item">
+                  <a href="./struktur-organisasi.html" class="nest-item-link">struktur organisasi</a>
+                </li>
+                <li class="nest-item">
+                  <a href="./dosen.html" class="nest-item-link">dosen</a>
+                </li>
+                <li class="nest-item">
+                  <a href="./staff.html" class="nest-item-link">staff</a>
+                </li>
+                <li class="nest-item">
+                  <a href="./kontak.html" class="nest-item-link">kontak</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item have-nest">
+              <a class="nav-link" href="#">Program Studi <i class="fa-solid fa-angle-right float-end"></i></a>
+              <ul class="nav-nest shadow-sm">
+                <li class="nest-item have-nest">
+                  <a href="" class="nest-item-link">Program Sarjana <i class="fa-solid fa-angle-right float-end"></i>
+                  </a>
+                  <ul class="nav-nest-nest shadow-sm">
+                    <li class="nest-item">
+                      <a href="./sarjana.html" class="nest-item-link">Sarjana</a>
+                    </li>
+                    <li class="nest-item">
+                      <a href="./sambutan-kaprodi.html" class="nest-item-link">Sambutan Kaprodi S1</a>
+                    </li>
+                    <li class="nest-item">
+                      <a href="" class="nest-item-link">Profil Lulusan</a>
+                    </li>
+                    <li class="nest-item">
+                      <a href="" class="nest-item-link">Kurikulum 2020</a>
+                    </li>
+                    <li class="nest-item">
+                      <a href="" class="nest-item-link">Jalur Tahun Keempat</a>
+                    </li>
+                    <li class="nest-item">
+                      <a href="" class="nest-item-link">Informatics Expo</a>
+                    </li>
+                    <li class="nest-item">
+                      <a href="" class="nest-item-link">Informasi & Layanan</a>
+                    </li>
+                    <li class="nest-item">
+                      <a href="" class="nest-item-link">Prospekus S1</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nest-item have-nest">
+                  <a href="" class="nest-item-link">Magister <i class="fa-solid fa-angle-right float-end"></i></a>
+                  <ul class="nav-nest-nest shadow-sm">
+                    <li class="nest-item">
+                      <a href="" class="nest-item-link">Sambutan Kaprodi S1</a>
+                    </li>
+                    <li class="nest-item">
+                      <a href="" class="nest-item-link">Profil Lulusan</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nest-item">
+                  <a href="" class="nest-item-link">International Program</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item have-nest">
+              <a class="nav-link" href="#">Riset&Pengabdian <i class="fa-solid fa-angle-right float-end"></i></a>
+              <ul class="nav-nest shadow-sm">
+                <li class="nest-item">
+                  <a href="" class="nest-item-link">Satu</a>
+                </li>
+                <li class="nest-item">
+                  <a href="" class="nest-item-link">Dua</a>
+                </li>
+                <li class="nest-item">
+                  <a href="" class="nest-item-link">Tiga</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item have-nest">
+              <a class="nav-link" href="#">Mahasiswa <i class="fa-solid fa-angle-right float-end"></i></a>
+              <ul class="nav-nest shadow-sm">
+                <li class="nest-item">
+                  <a href="" class="nest-item-link">Satu</a>
+                </li>
+                <li class="nest-item">
+                  <a href="" class="nest-item-link">Dua</a>
+                </li>
+                <li class="nest-item">
+                  <a href="" class="nest-item-link">Tiga</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item have-nest">
+              <a class="nav-link" href="#">Unit Pendukung <i class="fa-solid fa-angle-right float-end"></i></a>
+              <ul class="nav-nest shadow-sm">
+                <li class="nest-item">
+                  <a href="" class="nest-item-link">Satu</a>
+                </li>
+                <li class="nest-item">
+                  <a href="" class="nest-item-link">Dua</a>
+                </li>
+                <li class="nest-item">
+                  <a href="" class="nest-item-link">Tiga</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kemitraan</a>
+            </li>
+
+            <li class="nav-item position-relative">
+              <a href="" class="nav-link input-open">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+              <form action="" class="form-search bg-warning shadow-sm">
+                <input type="text" placeholder="search" class="input-search">
+                <button class="border-0 bg-transparent btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </form>
+            </li>
+
+          </ul>
+          <div class="navbar-nav2">
+            <a href="https://www.instagram.com/uis.batam/" target="_blank" class="brand-wrapper ig">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="" class="brand-wrapper fb">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="" class="brand-wrapper yt">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- endheader -->
+
+  <!-- hero/slideshow -->
+  <div id="slideHero" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img data-src="assets/app/img/slideshow/5.jpeg" class="d-block img-slide w-100" alt="5">
+        <div class="loader">
+          <div class="spinner-border text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img data-src="assets/app/img/slideshow/4.jpeg" class="d-block img-slide w-100" alt="4">
+        <div class="loader">
+          <div class="spinner-border text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img data-src="assets/app/img/slideshow/3.jpeg" class="d-block img-slide w-100" alt="3">
+        <div class="loader">
+          <div class="spinner-border text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="prev-slide" type="button" data-bs-target="#slideHero" data-bs-slide="prev">
+      <span class="fa-solid fa-angle-left"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="right-slide" type="button" data-bs-target="#slideHero" data-bs-slide="next">
+      <span class="fa-solid fa-angle-right"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- endhero/slideshow -->
+
+
+  <section id="mengenaiJurusan">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <iframe width="100%" height="300" class="lazy" data-src="https://www.youtube.com/embed/pWXIt2yXF-I"
+            title="Jurusan Informatika" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-6 ps-lg-5">
+          <h4 class="text-uis mt-3 mt-sm-0">Selamat datang di</h4>
+          <h1 class="text-uis fw-bold">Jurusan Informatika</h1>
+          <div class="deskripsi-jurusan mt-4">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum mollitia a eum corrupti veniam
+              exercitationem reiciendis voluptates vero incidunt, molestiae ullam tenetur laborum eius et, adipisci
+              dolor quis non numquam molestias voluptas aliquam quasi. Sapiente eaque fugiat, nesciunt, voluptatibus
+              perferendis modi porro doloremque inventore autem deleniti officiis. Accusantium, nam modi.</p>
+          </div>
+          <div class="btn-pilihan mt-5 row justify-content-sm-between p-3 p-sm-0">
+            <a class="btn btn-uis fs-5 col-md-5 mb-3" href="">Program Sarjana</a>
+            <a class="btn btn-uis fs-5 col-md-5 mb-3" href="">Program Magister</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="berita">
+    <div class="container">
+      <header class="text-center header-big">
+        <div class="title-wrapper">
+          <h1 class="title-content">Berita & Informasi</h1>
+          <div class="line-title-bg"></div>
+        </div>
+        <p class="text-muted title-description">Tetap terhubung dengan berita dan informasi terbaru tentang berbagai
+          aktivitas di
+          Jurusan Informatika Universitas Ibnu Sina</p>
+      </header>
+
+      <header class="header-small mt-5">
+        <div class="title-wrapper">
+          <h3 class="title-content text-uppercase">Berita Pilihan</h3>
+          <div class="line-title-bg"></div>
+        </div>
+      </header>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card berita-preview bg-transparent border-0">
+            <div class="berita-img-preview">
+              <img src="assets/app/img/slideshow/2.jpeg" loading="lazy" class="card-img-top" alt="2">
+              <div class="img-overlay-wrapper">
+                <a href="" class="link-preview">
+                  <div class="img-title">Lorem ipsum dolor sit amet.</div>
+                </a>
+                <div class="img-time"><i class="fa-regular fa-clock"></i> 1 Maret, 2022</div>
+              </div>
+              <div class="img-overlay-link-wrapper">
+                <a href="" class="btn-to-category">Berita
+                  Pilihan</a>
+                <a href="" class="btn-to-category">Pilihan</a>
+              </div>
+            </div>
+            <div class="card-body px-0">
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam tempora harum eaque
+                debitis corrupti quidem aliquid nobis omnis magni sed!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card berita-preview bg-transparent border-0">
+            <div class="berita-img-preview">
+              <img src="assets/app/img/slideshow/1.jpeg" class="card-img-top" alt="2">
+              <div class="img-overlay-wrapper">
+                <a href="" class="link-preview">
+                  <div class="img-title">Lorem ipsum dolor sit amet.</div>
+                </a>
+                <div class="img-time"><i class="fa-regular fa-clock"></i> 1 Maret, 2022</div>
+              </div>
+              <div class="img-overlay-link-wrapper">
+                <a href="" class="btn-to-category">Berita
+                  Pilihan</a>
+                <a href="" class="btn-to-category">Pilihan</a>
+              </div>
+            </div>
+            <div class="card-body px-0">
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam tempora harum eaque
+                debitis corrupti quidem aliquid nobis omnis magni sed!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card berita-preview bg-transparent border-0">
+            <div class="berita-img-preview">
+              <img src="assets/app/img/slideshow/3.jpeg" class="card-img-top" alt="2">
+              <div class="img-overlay-wrapper">
+                <a href="" class="link-preview">
+                  <div class="img-title">Lorem ipsum dolor sit amet.</div>
+                </a>
+                <div class="img-time"><i class="fa-regular fa-clock"></i> 1 Maret, 2022</div>
+              </div>
+              <div class="img-overlay-link-wrapper">
+                <a href="" class="btn-to-category">Berita
+                  Pilihan</a>
+                <a href="" class="btn-to-category">Pilihan</a>
+              </div>
+            </div>
+            <div class="card-body px-0">
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam tempora harum eaque
+                debitis corrupti quidem aliquid nobis omnis magni sed!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-block mt-5 clearfix">
+        <div class="float-end">
+          <a href="" class="btn btn-uis flat fw-bold">Baca Artikel Lainnya</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="testimoni" class="d-flex flex-column justify-content-around">
+    <h1 class="fw-bold alumni-title">Testimoni Alumni</h1>
+
+    <div id="slideTestimoni" class="carousel slide carousel-fade testi" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="container">
+          <div class="carousel-item active">
+            <div class="deskripsi-alumni">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quod illo fugiat. Unde iusto et
+                aliquam
+                alias voluptates est ratione, possimus accusamus error exercitationem illum, odio iure dolor delectus
+                dolorum.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="profile-alumni">
+                <img src="assets/app/img/man.png" alt="" class="img-alumni">
+                <div class="yang-bersangkutan">
+                  <p class="fw-bold mb-0">Fulan Bin Fulan</p>
+                  <small class="pekerjaan-alumni">Programmer di Google</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="deskripsi-alumni">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quod illo fugiat. Unde iusto et
+                aliquam
+                alias voluptates est ratione, possimus accusamus error exercitationem illum, odio iure dolor delectus
+                dolorum1.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="profile-alumni">
+                <img src="assets/app/img/woman.png" alt="" class="img-alumni">
+                <div class="yang-bersangkutan">
+                  <p class="fw-bold mb-0">Fulan Bin Fulan</p>
+                  <small class="pekerjaan-alumni">Programmer di Google</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="deskripsi-alumni">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quod illo fugiat. Unde iusto et
+                aliquam
+                alias voluptates est ratione, possimus accusamus error exercitationem illum, odio iure dolor delectus
+                dolorum2.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="profile-alumni">
+                <img src="assets/app/img/uis-logo.png" alt="" class="img-alumni">
+                <div class="yang-bersangkutan">
+                  <p class="fw-bold mb-0">Fulan Bin Fulan</p>
+                  <small class="pekerjaan-alumni">Programmer di Google</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="carousel-indicators indicator">
+        <button type="button" data-bs-target="#slideTestimoni" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#slideTestimoni" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#slideTestimoni" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- berita lainnya -->
+  <section id="blain">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 px-4 blain-segment py-3">
+          <header class="header-small">
+            <div class="title-wrapper">
+              <h3 class="title-content fs-4 text-uppercase">Prestasi</h3>
+              <div class="line-title-bg"></div>
+            </div>
+          </header>
+
+          <main class="blain-wrapper">
+            <article>
+              <div class="card border-0 rounded-0 bg-transparent">
+                <div class="row g-0">
+                  <div class="col-3">
+                    <a href="">
+                      <img src="assets/app/img/thumb/1.square.jpg" class="thumb-lain" alt="...">
+                    </a>
+                  </div>
+                  <div class="col-9 ps-4 ps-sm-0">
+                    <p class="card-text text-uppercase mb-1"><small class="text-muted">6 Februari, 2022</small></p>
+                    <a href="" class="lain-link">
+                      <p class="lain-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, error.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="separator"></div>
+            </article>
+          </main>
+
+          <main class="blain-wrapper">
+            <article>
+              <div class="card border-0 rounded-0 bg-transparent">
+                <div class="row g-0">
+                  <div class="col-3">
+                    <a href="">
+                      <img src="assets/app/img/thumb/2.square.jpg" class="thumb-lain" alt="...">
+                    </a>
+                  </div>
+                  <div class="col-9 ps-4 ps-sm-0">
+                    <p class="card-text text-uppercase mb-1"><small class="text-muted">6 Februari, 2022</small></p>
+                    <a href="" class="lain-link">
+                      <p class="lain-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, error.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="separator"></div>
+            </article>
+          </main>
+
+          <main class="blain-wrapper">
+            <article>
+              <div class="card border-0 rounded-0 bg-transparent">
+                <div class="row g-0">
+                  <div class="col-3">
+                    <a href="">
+                      <img src="assets/app/img/thumb/media1.jpg" class="thumb-lain" alt="...">
+                    </a>
+                  </div>
+                  <div class="col-9 ps-4 ps-sm-0">
+                    <p class="card-text text-uppercase mb-1"><small class="text-muted">6 Februari, 2022</small></p>
+                    <a href="" class="lain-link">
+                      <p class="lain-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, error.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="separator"></div>
+            </article>
+          </main>
+
+          <div class="d-block mt-3 clearfix">
+            <div class="float-end">
+              <a href="" class="btn btn-uis flat fw-light">Baca Artikel Lainnya</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 px-4 blain-segment py-3">
+          <header class="header-small">
+            <div class="title-wrapper">
+              <h3 class="title-content fs-4 text-uppercase">Prestasi</h3>
+              <div class="line-title-bg"></div>
+            </div>
+          </header>
+
+          <main class="blain-wrapper">
+            <article>
+              <div class="card border-0 rounded-0 bg-transparent">
+                <div class="row g-0">
+                  <div class="col-3">
+                    <a href="">
+                      <img src="assets/app/img/thumb/1.square.jpg" class="thumb-lain" alt="...">
+                    </a>
+                  </div>
+                  <div class="col-9 ps-4 ps-sm-0">
+                    <p class="card-text text-uppercase mb-1"><small class="text-muted">6 Februari, 2022</small></p>
+                    <a href="" class="lain-link">
+                      <p class="lain-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, error.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="separator"></div>
+            </article>
+          </main>
+
+          <main class="blain-wrapper">
+            <article>
+              <div class="card border-0 rounded-0 bg-transparent">
+                <div class="row g-0">
+                  <div class="col-3">
+                    <a href="">
+                      <img src="assets/app/img/thumb/2.square.jpg" class="thumb-lain" alt="...">
+                    </a>
+                  </div>
+                  <div class="col-9 ps-4 ps-sm-0">
+                    <p class="card-text text-uppercase mb-1"><small class="text-muted">6 Februari, 2022</small></p>
+                    <a href="" class="lain-link">
+                      <p class="lain-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, error.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="separator"></div>
+            </article>
+          </main>
+
+          <main class="blain-wrapper">
+            <article>
+              <div class="card border-0 rounded-0 bg-transparent">
+                <div class="row g-0">
+                  <div class="col-3">
+                    <a href="">
+                      <img src="assets/app/img/thumb/media1.jpg" class="thumb-lain" alt="...">
+                    </a>
+                  </div>
+                  <div class="col-9 ps-4 ps-sm-0">
+                    <p class="card-text text-uppercase mb-1"><small class="text-muted">6 Februari, 2022</small></p>
+                    <a href="" class="lain-link">
+                      <p class="lain-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, error.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="separator"></div>
+            </article>
+          </main>
+
+          <div class="d-block mt-3 clearfix">
+            <div class="float-end">
+              <a href="" class="btn btn-uis flat fw-light">Baca Artikel Lainnya</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 px-4 blain-segment py-3">
+          <header class="header-small">
+            <div class="title-wrapper">
+              <h3 class="title-content fs-4 text-uppercase">Prestasi</h3>
+              <div class="line-title-bg"></div>
+            </div>
+          </header>
+
+          <main class="blain-wrapper">
+            <article>
+              <div class="card border-0 rounded-0 bg-transparent">
+                <div class="row g-0">
+                  <div class="col-3">
+                    <a href="">
+                      <img src="assets/app/img/thumb/1.square.jpg" class="thumb-lain" alt="...">
+                    </a>
+                  </div>
+                  <div class="col-9 ps-4 ps-sm-0">
+                    <p class="card-text text-uppercase mb-1"><small class="text-muted">6 Februari, 2022</small></p>
+                    <a href="" class="lain-link">
+                      <p class="lain-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, error.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="separator"></div>
+            </article>
+          </main>
+
+          <main class="blain-wrapper">
+            <article>
+              <div class="card border-0 rounded-0 bg-transparent">
+                <div class="row g-0">
+                  <div class="col-3">
+                    <a href="">
+                      <img src="assets/app/img/thumb/2.square.jpg" class="thumb-lain" alt="...">
+                    </a>
+                  </div>
+                  <div class="col-9 ps-4 ps-sm-0">
+                    <p class="card-text text-uppercase mb-1"><small class="text-muted">6 Februari, 2022</small></p>
+                    <a href="" class="lain-link">
+                      <p class="lain-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, error.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="separator"></div>
+            </article>
+          </main>
+
+          <main class="blain-wrapper">
+            <article>
+              <div class="card border-0 rounded-0 bg-transparent">
+                <div class="row g-0">
+                  <div class="col-3">
+                    <a href="">
+                      <img src="assets/app/img/thumb/media1.jpg" class="thumb-lain" alt="...">
+                    </a>
+                  </div>
+                  <div class="col-9 ps-4 ps-sm-0">
+                    <p class="card-text text-uppercase mb-1"><small class="text-muted">6 Februari, 2022</small></p>
+                    <a href="" class="lain-link">
+                      <p class="lain-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, error.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="separator"></div>
+            </article>
+          </main>
+
+          <div class="d-block mt-3 clearfix">
+            <div class="float-end">
+              <a href="" class="btn btn-uis flat fw-light">Baca Artikel Lainnya</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="informasi">
+    <div class="container">
+      <div class="info-wrapper">
+        <div class="info-item">
+          <h2 class="text-uis fs-3">Riset & Pengabdian</h2>
+          <p class="text-muted deskripsi-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
+            odit autem eum facere, sapiente nobis excepturi consequatur expedita? Ipsa, culpa?</p>
+          <a href="" class="btn btn-uis flat d-flex justify-content-between align-items-center">Informasi Selengkapnya
+            <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+        <div class="info-item">
+          <h2 class="text-uis fs-3">Riset & Pengabdian</h2>
+          <p class="text-muted deskripsi-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
+            odit autem eum facere, sapiente nobis excepturi consequatur expedita? Ipsa, culpa?</p>
+          <a href="" class="btn btn-uis flat d-flex justify-content-between align-items-center">Informasi Selengkapnya
+            <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+        <div class="info-item">
+          <h2 class="text-uis fs-3">Riset & Pengabdian</h2>
+          <p class="text-muted deskripsi-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
+            odit autem eum facere, sapiente nobis excepturi consequatur expedita? Ipsa, culpa?</p>
+          <a href="" class="btn btn-uis flat d-flex justify-content-between align-items-center">Informasi Selengkapnya
+            <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+        <div class="info-item">
+          <h2 class="text-uis fs-3">Riset & Pengabdian</h2>
+          <p class="text-muted deskripsi-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
+            odit autem eum facere, sapiente nobis excepturi consequatur expedita? Ipsa, culpa?</p>
+          <a href="" class="btn btn-uis flat d-flex justify-content-between align-items-center">Informasi Selengkapnya
+            <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+      </div>
+      <div class="separator bg-uis mt-5"></div>
+    </div>
+  </section>
+
+  <section id="gabung">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-1 mt-5 mt-sm-0 order-md-0">
+          <h1 class="text-uis fw-bolder">Ayo Gabung ke UIS</h1>
+          <div class="gabung-deskripsi">
+            <p>
+              <span class="text-uis">#kuliahdiuis</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Atque,
+              blanditiis!
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci quia recusandae necessitatibus quis
+              minima modi rem eius officiis eligendi deserunt, consectetur incidunt. Id dicta et dignissimos amet
+              laborum porro saepe quas sit. Repudiandae laborum suscipit omnis quidem, officiis placeat veniam enim
+              atque quod rem dolorem similique in, dolore, incidunt itaque.
+            </p>
+          </div>
+
+          <a href="https://pmb.uis.ac.id/home" class="btn btn-uis flat fw-bold">Daftar Sekarang</a>
+
+        </div>
+
+        <div class="col-md-6 order-0 order-md-1 px-sm-5">
+          <img src="assets//app/img/slideshow/1.jpeg" alt="" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-lg-3 p-0">
+          <a href="" class="img-ig-wrapper">
+            <img data-src="assets/app/img/ig/1.jpg" alt="igpost" class="lazy img-fluid">
+            <div class="link-to-ig"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 p-0">
+          <a href="" class="img-ig-wrapper">
+            <img data-src="assets/app/img/ig/2.jpg" alt="igpost" class="lazy img-fluid">
+            <div class="link-to-ig"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 p-0">
+          <a href="" class="img-ig-wrapper">
+            <img data-src="assets/app/img/ig/3.jpg" alt="igpost" class="lazy img-fluid">
+            <div class="link-to-ig"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 p-0">
+          <a href="" class="img-ig-wrapper">
+            <img data-src="assets/app/img/ig/4.jpg" alt="igpost" class="lazy img-fluid">
+            <div class="link-to-ig"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 p-0">
+          <a href="" class="img-ig-wrapper">
+            <img data-src="assets/app/img/ig/5.jpg" alt="igpost" class="lazy img-fluid">
+            <div class="link-to-ig"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 p-0">
+          <a href="" class="img-ig-wrapper">
+            <img data-src="assets/app/img/ig/6.jpg" alt="igpost" class="lazy img-fluid">
+            <div class="link-to-ig"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 p-0">
+          <a href="" class="img-ig-wrapper">
+            <img data-src="assets/app/img/ig/1.jpg" alt="igpost" class="lazy img-fluid">
+            <div class="link-to-ig"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 p-0">
+          <a href="" class="img-ig-wrapper">
+            <img data-src="assets/app/img/ig/2.jpg" alt="igpost" class="lazy img-fluid">
+            <div class="link-to-ig"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="followus">
+    <center>
+      <h4 class="title-mepet fs-5">Ikuti Informatika UIS Di Media Sosial</h4>
+      <div class="btn-follow-group">
+        <a href="https://www.instagram.com/uis.batam/" title="instagram uis" class="follow-brand-btn">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/c/UniversitasIbnuSina" title="youtube uis" class="follow-brand-btn">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://web.facebook.com/universitasibnusinabatam" title="facebook uis" class="follow-brand-btn">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="" title="twitter uis" class="follow-brand-btn">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+    </center>
+  </section>
+
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4 class="title-mepet fs-5">Jurusan Teknik Informatika</h4>
+          <p class="alamat"> JL. Teuku Umar - Pelita – Lubuk Baja, Batam, Riau Islands - Indonesia </p>
+          <p class="kontak">
+            Telpon : <span>(0778) 4083113</span><br>
+            Email : <span>info@uis.ac.id </span>
+          </p>
+        </div>
+        <div class="col-md-3 ps-sm-5">
+          <h4 class="title-mepet fs-5">Tautan Cepat</h4>
+          <p class="link-cepat">
+            <a href="">Universitas</a>
+          </p>
+          <p class="link-cepat">
+            <a href="">Siakad</a>
+          </p>
+          <p class="link-cepat">
+            <a href="">Sister</a>
+          </p>
+          <p class="link-cepat">
+            <a href="">PMB</a>
+          </p>
+        </div>
+        <div class="col-md-5 text-center">
+          <img src="assets/app/img/uis-logo.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <div
+    class="copyright bg-uis p-3 px-sm-5 text-white d-flex align-items-center justify-content-md-between flex-column flex-md-row">
+    <div class="copy">
+      <small class="small"><i class="fa-solid fa-copyright"></i> Hak Cipta 2022 - Jurusan Informatika UIS -
+        Batam</small>
+    </div>
+    <div class="logo">
+      <a href="https://www.instagram.com/uis.batam/" target="_blank" class="brand-wrapper ig">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="" class="brand-wrapper fb">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="" class="brand-wrapper yt">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+    </div>
+  </div>
+
+  <a href="#" class="to-top-btn" data-scroll>
+    <i class="fa-solid fa-angle-up"></i>
+  </a>
+
+
+  <!-- font awesome -->
+  <script src="assets/fonts/fontawesome6/js/all.js"></script>
+
+  <!-- bootstrap js -->
+  <script src="assets/framework/bootstrap5/js/bootstrap.bundle.min.js"></script>
+
+  <!-- my script -->
+  <script src="assets/app/js/navbar.js"></script>
+  <!-- <script src="assets/app/js/sweet-scroll.js"></script> -->
+  <script src="assets/app/js/smooth-scroll.polyfills.js"></script>
+  <script src="assets/app/js/lazyload.min.js"></script>
+
+  <script src="assets/app/js/home.js"></script>
+  <script src="assets/app/js/footer.js"></script>
+
+</body>
+
+</html>
